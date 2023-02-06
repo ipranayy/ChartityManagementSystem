@@ -25,5 +25,4 @@ def services(request):
 
 
 def contact(request):
-    print("ddd")
     return render(request, 'index.html')
