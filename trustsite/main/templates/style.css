@@ -3,18 +3,15 @@
     justify-content: center;
     flex-direction: column;
     gap:1rem;
-  }
-  
-  .test {
+}
+.test {
     display: flex;
     justify-content: space-between;
     padding: 3rem 5rem;
-  }
-  
-  .main-txt, p-txt  {
+}
+.main-txt, p-txt  {
     margin: 0 500px;
-  }
-  
-  .p-txt {
-    padding: 0 450px;
-  }
+}
+
+.p-txt {
+    padding: 0 450px;}

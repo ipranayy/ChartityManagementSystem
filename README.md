@@ -1,4 +1,4 @@
-Charity Management System
+¸Charity Management System
 
 This project is a web-based charity management system designed to help non-profit organizations streamline their operations and manage their resources more effectively. The system provides a range of features to support fundraising, volunteer management, and donor relations, among other things.
 
