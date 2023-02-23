@@ -1,5 +1,5 @@
 """
-WSGI config for trustsite project.
+WSGI config for vercel_app project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,7 +11,7 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "trustsite.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "vercel_app.settings")
 
 application = get_wsgi_application()
 
