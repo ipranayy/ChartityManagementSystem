@@ -1,0 +1,300 @@
+{% load static%}
+{% block content%}
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="{% static 'assets/css/custom.css' %}">
+    <link rel='stylesheet' href= "{% static 'assets/css/bootstrap.min.css' %}">
+	<link rel='stylesheet' href= "{% static 'assets/css/animate.min.css' %}">
+	<link rel='stylesheet' href= "{% static 'assets/css/font-awesome.min.css' %}">
+	<link rel='stylesheet' href= "{% static 'assets/css/style.css' %}">
+    <link rel="stylesheet" href='{% static "assets/css/components.css" %}'>
+    <link rel="stylesheet" href='{% static "assets/css/icons.css" %}'>
+    <link rel="stylesheet" href='{% static "assets/css/responsee.css" %}'>
+    <link rel="stylesheet" href='{% static "owl-carousel/owl.carousel.css" %}'>
+    <link rel="stylesheet" href='{% static "owl-carousel/owl.theme.css" %}'>
+
+
+    <script src="{% static 'assets/js/vendor/html5shiv.min.js' %}"></script>
+      <script src="{% static 'assets/js/vendor/respond.min.js' %}"></script>
+    <!-- CUSTOM STYLE -->
+    <link rel="stylesheet" href='{% static "assets/css/template-style.css" %}'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src='{% static "assets/js/jquery-1.8.3.min.js" %}'></script>
+    <script type="text/javascript" src='{% static "assets/js/jquery-ui.min.js" %}'></script>
+  </head>
+
+
+<!-- navbar
+	================================================== -->
+
+<header id="header" class="navbar navbar-inverse navbar-fixed-top" role="banner">
+<div class="container">
+	<div class="navbar-header">
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+		<!-- Your Logo -->
+		<a href="#hero" class="navbar-brand">SANJEEVINI CHARITABLE TRUST <span class="lighter"></span></a>
+	</div>
+	<!-- Start Navigation -->
+	<nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+	<ul class="nav navbar-nav">
+		<li>
+		<a href="#hero">Home</a>
+		</li>
+		<li>
+		<a href="http://127.0.0.1:8000/about">About Us</a>
+		</li>
+		<li>
+		<a href="http://127.0.0.1:8000/gallery">Gallery</a>
+		</li>
+		<li>
+		<a href="#slider">Members</a>
+		</li>
+		<li>
+		<a href="#faq">Events</a>
+		</li>
+		<li>
+		<a href="#faq">Faq's</a>
+		</li>
+		<li>
+		<a href="#contactarea">Contact Us</a>
+		</li>
+	</ul>
+	</nav>
+</div>
+</header>
+
+<!-- Main code
+	================================================== -->
+
+      <!-- MAIN -->
+      <main role="main">
+        <!-- Content -->
+        <article>
+          <header class="section background-white">
+            <div class="line text-center">
+              <h1 class="text-dark text-s-size-30 text-m-size-40 text-l-size-headline text-thin text-line-height-1">Be More with Less</h1>
+              <p class="margin-bottom-0 text-size-16 text-dark">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.<br>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+            </div>
+          </header>
+          <div class="background-white full-width">
+            <div class="s-12 m-6 l-five">
+              <a class="image-with-hover-overlay image-hover-zoom" href="/" title="Portfolio Image">
+                <div class="image-hover-overlay background-primary">
+                  <div class="image-hover-overlay-content text-center padding-2x">
+                    <h3 class="text-white text-size-20 margin-bottom-10">Reference Title</h3>
+                    <p class="text-white text-size-14 margin-bottom-20">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                  </div>
+                </div>
+                <img class="full-img" src='{% static "assets/img/portfolio/thumb-01.jpg" %}'>
+              </a>
+            </div>
+            <div class="s-12 m-6 l-five">
+              <a class="image-with-hover-overlay image-hover-zoom" href="/" title="Portfolio Image">
+                <div class="image-hover-overlay background-primary">
+                  <div class="image-hover-overlay-content text-center padding-2x">
+                    <h3 class="text-white text-size-20 margin-bottom-10">Reference Title</h3>
+                    <p class="text-white text-size-14 margin-bottom-20">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                  </div>
+                </div>
+                <img class="full-img" src='{% static "assets/img/portfolio/thumb-02.jpg" %}'>
+              </a>
+            </div>
+            <div class="s-12 m-6 l-five">
+              <a class="image-with-hover-overlay image-hover-zoom" href="/" title="Portfolio Image">
+                <div class="image-hover-overlay background-primary">
+                  <div class="image-hover-overlay-content text-center padding-2x">
+                    <h3 class="text-white text-size-20 margin-bottom-10">Reference Title</h3>
+                    <p class="text-white text-size-14 margin-bottom-20">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                  </div>
+                </div>
+                <img class="full-img" src='{% static "assets/img/portfolio/thumb-03.jpg" %}'>
+              </a>
+            </div>
+            <div class="s-12 m-6 l-five">
+              <a class="image-with-hover-overlay image-hover-zoom" href="/" title="Portfolio Image">
+                <div class="image-hover-overlay background-primary">
+                  <div class="image-hover-overlay-content text-center padding-2x">
+                    <h3 class="text-white text-size-20 margin-bottom-10">Reference Title</h3>
+                    <p class="text-white text-size-14 margin-bottom-20">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                  </div>
+                </div>
+                <img class="full-img" src='{% static "assets/img/portfolio/thumb-04.jpg" %}'>
+              </a>
+            </div>
+            <div class="s-12 m-6 l-five">
+              <a class="image-with-hover-overlay image-hover-zoom" href="/" title="Portfolio Image">
+                <div class="image-hover-overlay background-primary">
+                  <div class="image-hover-overlay-content text-center padding-2x">
+                    <h3 class="text-white text-size-20 margin-bottom-10">Reference Title</h3>
+                    <p class="text-white text-size-14 margin-bottom-20">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                  </div>
+                </div>
+                <img class="full-img" src='{% static "assets/img/portfolio/thumb-05.jpg" %}'>
+              </a>
+            </div>
+            <div class="s-12 m-6 l-five">
+              <a class="image-with-hover-overlay image-hover-zoom" href="/" title="Portfolio Image">
+                <div class="image-hover-overlay background-primary">
+                  <div class="image-hover-overlay-content text-center padding-2x">
+                    <h3 class="text-white text-size-20 margin-bottom-10">Reference Title</h3>
+                    <p class="text-white text-size-14 margin-bottom-20">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                  </div>
+                </div>
+                <img class="full-img" src='{% static "assets/img/portfolio/thumb-06.jpg" %}'>
+              </a>
+            </div>
+            <div class="s-12 m-6 l-five">
+              <a class="image-with-hover-overlay image-hover-zoom" href="/" title="Portfolio Image">
+                <div class="image-hover-overlay background-primary">
+                  <div class="image-hover-overlay-content text-center padding-2x">
+                    <h3 class="text-white text-size-20 margin-bottom-10">Reference Title</h3>
+                    <p class="text-white text-size-14 margin-bottom-20">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                  </div>
+                </div>
+                <img class="full-img" src='{% static "assets/img/portfolio/thumb-07.jpg" %}'>
+              </a>
+            </div>
+            <div class="s-12 m-6 l-five">
+              <a class="image-with-hover-overlay image-hover-zoom" href="/" title="Portfolio Image">
+                <div class="image-hover-overlay background-primary">
+                  <div class="image-hover-overlay-content text-center padding-2x">
+                    <h3 class="text-white text-size-20 margin-bottom-10">Reference Title</h3>
+                    <p class="text-white text-size-14 margin-bottom-20">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                  </div>
+                </div>
+                <img class="full-img" src='{% static "assets/img/portfolio/thumb-08.jpg" %}'>
+              </a>
+            </div>
+            <div class="s-12 m-6 l-five">
+              <a class="image-with-hover-overlay image-hover-zoom" href="/" title="Portfolio Image">
+                <div class="image-hover-overlay background-primary">
+                  <div class="image-hover-overlay-content text-center padding-2x">
+                    <h3 class="text-white text-size-20 margin-bottom-10">Reference Title</h3>
+                    <p class="text-white text-size-14 margin-bottom-20">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                  </div>
+                </div>
+                <img class="full-img" src='{% static "assets/img/portfolio/thumb-09.jpg" %}'>
+              </a>
+            </div>
+            <div class="s-12 m-6 l-five">
+              <a class="image-with-hover-overlay image-hover-zoom" href="/" title="Portfolio Image">
+                <div class="image-hover-overlay background-primary">
+                  <div class="image-hover-overlay-content text-center padding-2x">
+                    <h3 class="text-white text-size-20 margin-bottom-10">Reference Title</h3>
+                    <p class="text-white text-size-14 margin-bottom-20">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                  </div>
+                </div>
+                <img class="full-img" src='{% static "assets/img/portfolio/thumb-10.jpg" %}'>
+              </a>
+            </div>
+            <div class="s-12 m-6 l-five">
+              <a class="image-with-hover-overlay image-hover-zoom" href="/" title="Portfolio Image">
+                <div class="image-hover-overlay background-primary">
+                  <div class="image-hover-overlay-content text-center padding-2x">
+                    <h3 class="text-white text-size-20 margin-bottom-10">Reference Title</h3>
+                    <p class="text-white text-size-14 margin-bottom-20">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                  </div>
+                </div>
+                <img class="full-img" src='{% static "assets/img/portfolio/thumb-11.jpg" %}'>
+              </a>
+            </div>
+            <div class="s-12 m-6 l-five">
+              <a class="image-with-hover-overlay image-hover-zoom" href="/" title="Portfolio Image">
+                <div class="image-hover-overlay background-primary">
+                  <div class="image-hover-overlay-content text-center padding-2x">
+                    <h3 class="text-white text-size-20 margin-bottom-10">Reference Title</h3>
+                    <p class="text-white text-size-14 margin-bottom-20">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                  </div>
+                </div>
+                <img class="full-img" src='{% static "assets/img/portfolio/thumb-12.jpg" %}'>
+              </a>
+            </div>
+            <div class="s-12 m-6 l-five">
+              <a class="image-with-hover-overlay image-hover-zoom" href="/" title="Portfolio Image">
+                <div class="image-hover-overlay background-primary">
+                  <div class="image-hover-overlay-content text-center padding-2x">
+                    <h3 class="text-white text-size-20 margin-bottom-10">Reference Title</h3>
+                    <p class="text-white text-size-14 margin-bottom-20">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                  </div>
+                </div>
+                <img class="full-img" src='{% static "assets/img/portfolio/thumb-01.jpg" %}'>
+              </a>
+            </div>
+            <div class="s-12 m-6 l-five">
+              <a class="image-with-hover-overlay image-hover-zoom" href="/" title="Portfolio Image">
+                <div class="image-hover-overlay background-primary">
+                  <div class="image-hover-overlay-content text-center padding-2x">
+                    <h3 class="text-white text-size-20 margin-bottom-10">Reference Title</h3>
+                    <p class="text-white text-size-14 margin-bottom-20">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                  </div>
+                </div>
+                <img class="full-img" src='{% static "assets/img/portfolio/thumb-02.jpg" %}'>
+            </div>
+            <div class="s-12 m-6 l-five">
+              <a class="image-with-hover-overlay image-hover-zoom" href="/" title="Portfolio Image">
+                <div class="image-hover-overlay background-primary">
+                  <div class="image-hover-overlay-content text-center padding-2x">
+                    <h3 class="text-white text-size-20 margin-bottom-10">Reference Title</h3>
+                    <p class="text-white text-size-14 margin-bottom-20">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                  </div>
+                </div>
+                <img class="full-img" src='{% static "assets/img/portfolio/thumb-03.jpg" %}'>
+              </a>
+            </div>
+          </div>
+        </article>
+      </main>
+
+<!-- Footer
+	================================================== -->
+
+  <section id="credits" class="text-center">
+    Copyright &copy; Sanjeevini Charitable Trust 2023
+	<span class="social wow zoomIn">
+      <div class="text-center py-3 text-white p-txt">Copyright &copy; Sanjeevini Charitable Trust 2023</div>
+	<a href="#"><i class="fa fa-facebook"></i></a>
+	<a href="#"><i class="fa fa-twitter"></i></a>
+	<a href="#"><i class="fa fa-skype"></i></a>
+	<a href="#"><i class="fa fa-linkedin"></i></a>
+	<a href="#"><i class="fa fa-pinterest"></i></a>
+	<a href="#"><i class="fa fa-google-plus"></i></a>
+	</span><br/>
+
+</section>
+
+<!-- About
+	================================================== -->
+
+    </div>
+<script type="text/javascript" src="{% static 'assets/js/responsee.js' %}"></script>
+    <script type="text/javascript" src="{% static 'assets/js/jquery.events.touch.js' %}"></script>
+    <script type="text/javascript" src="{% static 'owl-carousel/owl.carousel.js' %}"></script>
+    <script type="text/javascript" src="{% static 'assets/js/template-scripts.js' %}"></script>
+    <script src="{% static 'assets/js/scripts.min.js' %}"></script>
+    <script src="{% static 'assets/js/main.min.js' %}"></script>
+    <script src="{% static 'assets/js/custom.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+    <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'assets/js/waypoints.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.scrollTo.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.localScroll.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'assets/js/validate.js' %}"></script>
+    <script src="{% static 'assets/js/common.js' %}"></script>
+  </body>
+</html>
+
+{% endblock%}
+
+<!-- About
+	================================================== -->

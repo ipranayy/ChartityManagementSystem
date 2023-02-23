@@ -1,0 +1,204 @@
+{% load static%}
+{% block content%}
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us &mdash; </title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+	<link href='http://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{% static 'assets/css/custom.css' %}">
+    <link rel='stylesheet' href= "{% static 'assets/css/bootstrap.min.css' %}">
+	<link rel='stylesheet' href= "{% static 'assets/css/animate.min.css' %}">
+	<link rel='stylesheet' href= "{% static 'assets/css/font-awesome.min.css' %}">
+	<link rel='stylesheet' href= "{% static 'assets/css/style.css' %}">
+
+    <!--[if lt IE 9]>
+      <script src="{% static 'assets/js/vendor/html5shiv.min.js' %}"></script>
+      <script src="{% static 'assets/js/vendor/respond.min.js' %}"></script>
+    <![endif]-->
+  </head>
+
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+    }
+    .header {
+      text-align: center;
+      font-size: 36px;
+      color: #333;
+      margin-top: 50px;
+      text-shadow: 1px 1px #ccc;
+      animation: fadeIn 3s;
+    }
+    .header span {
+      font-size: 60px;
+      color: #333;
+      font-weight: bold;
+    }
+    .about-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 50px;
+    }
+    .about-section .text-block {
+      width: 40%;
+      margin: 20px;
+      text-align: center;
+      color: #FFFF;
+      box-shadow: 1px 1px #ccc;
+      padding: 30px;
+      animation: fadeIn 3s;
+
+    }
+    .about-section .text-block h2 {
+      font-size: 28px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .about-section .text-block p {
+      font-size: 16px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .about-section .img-block {
+      width: 40%;
+      margin: 20px;
+      text-align: center;
+      animation: fadeIn 3s;
+    }
+    .about-section .img-block img {
+      width: 80%;
+      height: auto;
+      box-shadow: 1px 1px #ccc;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+
+  <body>
+<header id="header" class="navbar navbar-inverse navbar-fixed-top" role="banner">
+<div class="container">
+	<div class="navbar-header">
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+		<!-- Your Logo -->
+		<a href="#hero" class="navbar-brand">SANJEEVINI CHARITABLE TRUST <span class="lighter"></span></a>
+	</div>
+	<!-- Start Navigation -->
+	<nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+	<ul class="nav navbar-nav">
+		<li>
+		<a href="http://127.0.0.1:8000/">Home</a>
+		</li>
+		<li>
+		<a href="http://127.0.0.1:8000/about">About Us</a>
+		</li>
+		<li>
+		<a href="http://127.0.0.1:8000/gallery">Gallery</a>
+		</li>
+		<li>
+		<a href="#slider">Members</a>
+		</li>
+		<li>
+		<a href="#faq">Events</a>
+		</li>
+        <li>
+		<a href="#faq">Faq's</a>
+		</li>
+		<li>
+		<a href="http://127.0.0.1:8000/#contactarea">Contact Us</a>
+		</li>
+	</ul>
+	</nav>
+</div>
+</header>
+
+<body>
+  </div>
+  <div class="about-section">
+    <div class="text-block">
+      <h2>Our Mission</h2>
+      <p>To provide aid and support to those in need, improving their quality of life and helping them reach their full potential."Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </div>
+    <div class="img-block">
+      <img src="{%static 'assets/img/peakpx.jpg' %}">
+    </div>
+    <div class="img-block">
+      <img src="{%static 'assets/img/wall paper blue flower.jpg' %}">
+    </div>
+    <div class="text-block">
+      <h2>Our Vision</h2>
+      <p>To create a world where everyone has access to the resources and support they need to live a fulfilling life."Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </div>
+    <div class="text-block">
+      <h2>Our Values</h2>
+      <p>Compassion, Empathy, Integrity, Respect, and Responsibility."Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </div>
+    <div class="img-block">
+      <img src="{%static 'assets/img/forty_image_14.jpg' %}">
+    </div>
+    <div class="img-block">
+      <img src="{%static 'assets/img/forty_image_31.jpg' %}">
+    </div>
+    <div class="text-block">
+      <h2>Our Approach</h2>
+<p>We believe in taking a holistic approach to addressing the needs of those we serve. We listen to their needs and provide targeted, sustainable solutions that empower them to achieve their goals and improve their quality of life."Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+</div>
+  </div>
+</body>
+
+
+
+
+
+<!-- Credits
+=============================================== -->
+
+<section id="credits" class="text-center">
+      <div class="text-center py-3 text-white p-txt">Copyright &copy; Sanjeevini Charitable Trust 2023</div>
+	<span class="social wow zoomIn">
+	<a href="#"><i class="fa fa-facebook"></i></a>
+	<a href="#"><i class="fa fa-twitter"></i></a>
+	<a href="#"><i class="fa fa-skype"></i></a>
+	<a href="#"><i class="fa fa-linkedin"></i></a>
+	<a href="#"><i class="fa fa-pinterest"></i></a>
+	<a href="#"><i class="fa fa-google-plus"></i></a>
+	</span><br/>
+
+</section>
+
+    <script src="{% static 'assets/js/scripts.min.js' %}"></script>
+    <script src="{% static 'assets/js/main.min.js' %}"></script>
+    <script src="{% static 'assets/js/custom.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+    <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'assets/js/waypoints.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.scrollTo.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.localScroll.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'assets/js/validate.js' %}"></script>
+    <script src="{% static 'assets/js/common.js' %}"></script>
+  </body>
+</html>
+
+
+
+{% endblock%}
